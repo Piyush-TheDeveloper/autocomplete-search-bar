@@ -2,3 +2,37 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+.search-bar {
+  width: 70%;
+  padding: 10px;
+  border-radius: 5px;
+  border-color: green;
+}
+
+.result-container {
+  width: 73%;
+  border: 1px solid black;
+  margin: auto;
+  text-align: left;
+  border-radius: 5px;
+  height: 70%;
+  overflow-y: scroll;
+}
+
+.result {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;
+  margin: 2px;
+}
+.result-img {
+  width: 40px;
+  height: 40px;
+}
+
+.result:hover {
+  background-color: beige;
+  cursor: pointer;
+}
